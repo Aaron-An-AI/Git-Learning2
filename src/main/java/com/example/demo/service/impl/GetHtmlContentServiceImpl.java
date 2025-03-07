@@ -13,7 +13,7 @@ import java.net.URL;
 public class GetHtmlContentServiceImpl implements GetHtmlContentService {
     @Override
     public String getHtmlContent(String url) {
-        URL url1 = null;
+        URL url1 =  null ;
         try {
             url1 = new URL(url);
         } catch (Exception e) {
